@@ -23,7 +23,6 @@ const daysSinceModification = 0;
 // O que faz? Armazena um valor númerico que representa os dias desde a modificação
 // E como é usado? como uma constante númerica
 
-
 const idadeDoArquivoEmDias = 0;
 const fileAgeInDays = 0;
 // Por que existe? Para armazenar a idade do arquivo em dias
