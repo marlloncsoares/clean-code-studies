@@ -5,7 +5,7 @@ Um código ruim pode funcionar, mas se ele não for limpo, pode acabar com um pr
 # Roteiro
 
 1. [O que é Clean Code?](#o-que-é-clean-code)
-2. [O custo de ter um código ruim?](#o-custo-de-ter-um-código-ruim?)
+2. [O custo de ter um código ruim](#o-custo-de-ter-um-código-ruim)
 3. [Nomes significativos](#nomes-significativos)
 4. [Use nomes que revelem seu propósito](#use-nomes-que-revelem-seu-propósito)
 5. [Faça distinções significativas](#faça-distinções-significativas)
@@ -21,7 +21,7 @@ o encobrimento de bugs, as dependências minimas para facilitar a manutençaõ, 
 
 Segundo Grady Booch, autor do livro Object Oriented Analysis and Design with Applications, código limpo é: "Um código limpo é simples e direto. Ele é tão bem legível quanto uma prosa bem escrita. Ele jamais torna confuso o objetivo do desenvolvedor, em vez disso, ele está repleto de abstrações claras e linhas de controle objetivas."
 
-# O custo de ter um código ruim?
+# O custo de ter um código ruim
 
 Se você é programador(a) há mais de dois anos, provavelmente o código confuso de outra pessoa já fez com que você trabalhasse mais lentamente e provavelmente seu prórpio código já lhe trouxe problemas.
 
@@ -130,11 +130,11 @@ function getData2() {
 }
 
 function obterDados1() { 
-	/** ... */
+  /** ... */
 }
 
 function obterDados2() {
-	/** ... */
+  /** ... */
 }
 ~~~
 
@@ -150,11 +150,11 @@ function getProviders() {
 }
 
 function obterClientes() {
-	/** ...*/
+  /** ...*/
 }
 
 function obterFornecedores() {
-	/** ... */
+  /** ... */
 }
 ~~~
 
