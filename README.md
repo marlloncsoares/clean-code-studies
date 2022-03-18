@@ -13,6 +13,7 @@ Um código ruim pode funcionar, mas se ele não for limpo, pode acabar com um pr
 7. [Use nomes passíveis de busca](#use-nomes-passíveis-de-busca)
 8. [Evite Mapeamento Mental](#evite-mapeamento-mental)
 9. [Não adicione contextos desnecessários](#não-adicione-contextos-desnecessários)
+10. [Nomes de classes](#nomes-de-classes)
 
 # O que é Clean Code?
 
@@ -274,5 +275,43 @@ const Car = {
 
 function paintCar(car) {
   car.color = 'Red';
+}
+~~~
+
+# **Nomes de classes**
+
+Classes e objetos devem ter nomes com substantivo(s) (que evidencia a substância, a essência.), como Customer, WikePage, Account e AddressParser. Evite palavras como Gerente, Processador, Dados ou Info.
+
+# **Selecione uma palavra por conceito**
+
+Escolha uma palavra para cada conceito abstrato e fique com ela.
+
+## Exemplos em Javascript
+
+Mau exemplo:
+
+~~~javascript
+// Exemplos ruins
+
+const fetchClient;
+const retrieveClient;
+const getClient;
+
+class ClientManager {
+	/** ... */
+}
+
+class ClientController {
+  /** ... */
+}
+~~~
+
+Bom exemplo:
+
+~~~javascript
+const getClient;
+
+class ClientController {
+  /** ... */
 }
 ~~~
