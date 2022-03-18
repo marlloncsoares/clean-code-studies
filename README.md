@@ -36,7 +36,7 @@ Escrever um código limpo, não é apenas em termos de reduzir custos, mas tamb�
 
 Há nomes por todo os lados em um software. Nomeamos nossas variáveis, funções, parâmetros, classes e pacotes, assim como os arquivos-fonte e os diretórios que os possui. A seguir estão algumas regras simples para a criação de bons nomes.
 
-## **Use nomes que revelem seu propósito**
+# **Use nomes que revelem seu propósito**
 
 O nome de uma variável, classe ou função, deve responder as questões mais importantes, 
 como:
@@ -48,7 +48,7 @@ como:
 Se o nome de uma variável requer um comentário, então ele não revela o seu propósito.
 
 
-## Exemplos (javascript)
+## Exemplos em Javascript
 
 Mau exemplo:
 
@@ -90,11 +90,11 @@ Bom exemplo:
 const durationInMinutes = 25;
 ~~~
 
-## **Faça distinções significativas**
+# **Faça distinções significativas**
 
 Se os nomes precisam ser diferentes, então também devem ter significados distintos. Utilize sempre nomes nos quais quem estiver lendo seu código possa diferenciar seu significado de outros possíveis nomes.
 
-## Exemplos (javascript)
+## Exemplos em Javascript
 
 Mau exemplo:
 
@@ -174,11 +174,11 @@ const salarioEmReais = 15122.10;
 const salarioEmDolar = salarioEmReais  / valorDoDolarEmReal;
 ~~~
 
-## **Use nomes pronunciáveis**
+# **Use nomes pronunciáveis**
 
 Os seres humanos são bons com as palavras. Uma parte considerável do cérebro é respon´savel pelo conceito das palavras. As palavras precisam ser pronunciáveis.
 
-## Exemplos em javascript
+## Exemplos em Javascript
 
 Mau exemplo:
 
@@ -206,7 +206,7 @@ class Customer {
 }
 ~~~
 
-## **Use nomes passíveis de busca**
+# **Use nomes passíveis de busca**
 
 Utilize nomes fáceis de localizar. Nós iremos ler mais código que escrever. É importante que o código que escrevemos seja legível e pesquisável. Não dando nomes em variáveis que sejam significativos para entender nosso programa, machucamos nossos leitores. Torne seus nomes pesquisáveis. Ferramentas como buddy.js e ESLint podem ajudar a identificar constantes sem nome.
 
@@ -224,7 +224,7 @@ const MILLISECONDS_IN_A_DAY = 86400000;
 setTimeout(updateClient, MILLISECONDS_IN_A_DAY);
 ~~~
 
-## **Evite Mapeamento Mental**
+# **Evite Mapeamento Mental**
 
 Explicito é melhor que implícito.
 
@@ -244,7 +244,7 @@ const numeros = [0, 1, 2, 3];
 let total = numeros.reduce((*acumulador*, *valorAtual*) => acumulador + valorAtual, 0);
 ~~~
 
-## **Não adicione contextos desnecessários**
+# **Não adicione contextos desnecessários**
 
 Se o nome de sua classe/objeto já lhe diz alguma coisa, não as repita nos nomes de suas variáveis.
 
